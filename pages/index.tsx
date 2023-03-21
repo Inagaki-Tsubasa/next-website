@@ -62,7 +62,7 @@ export default function Home() {
               <h2>リニューアルWEBサイト</h2>
               <p>使用した言語</p>
               <h5>Next.js, Typescript</h5>
-              <a href="https://inagaki-tsubasa.github.io/kinggnu-gallery/">サイトを見に行く→</a>
+              <a href="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/">サイトを見に行く→</a>
             </div>
           </div>
 

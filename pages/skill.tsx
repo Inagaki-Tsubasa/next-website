@@ -19,7 +19,7 @@ export default function Home() {
           image="../Images/newapp.png"
           text="Next.jsで自己紹介サイトをリニューアルした！！" 
           skill="Next.js, Typescript"
-          link="https://inagaki-tsubasa.github.io/website/"
+          link="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/"
           />
           <Card  
           image="../Images/portfolio.png"

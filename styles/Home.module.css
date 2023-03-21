@@ -11,7 +11,7 @@
     justify-content: center;
     text-align: center;
     width: 100vw;
-    height: 15%;
+    height: 13%;
     color: white;
     z-index: 10;
     
@@ -22,8 +22,8 @@
 .headerNav ul li {
     list-style: none;
     display: inline-block;
-    font-size: 350%;
-    margin: 50px;
+    font-size: 320%;
+    margin: 40px;
     font-weight: bold;
 
 }
@@ -46,7 +46,7 @@
  ホームのメイン画像
  */
 .hero{
-    padding-top: 7%;
+    padding-top: 6%;
     position: relative;
 }
 
@@ -54,7 +54,7 @@
     position: absolute;
     top: 12%;
     left: 2%;
-    font-size: 400%;
+    font-size: 360%;
     color: rgb(58, 44, 47);
 }
 
