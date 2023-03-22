@@ -1,0 +1,39 @@
+.likeTitle {
+  font-size: 500%;
+  font-weight: 700;
+  margin: 10% 0 0 10%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.movieYoutube {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 8% 6% 8%;
+}
+
+.cardLink {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+  /* margin-right: 5%; */
+  /* margin: 10% 8% 4% 8%; */
+  width: 40%;
+  height: 35%;
+  margin: 5% 10% 0 0%;
+  /* margin-top: 10%; */
+}
+
+.linkText {
+  padding: 2%;
+}
+
+.linkText h1 {
+  font-weight: 700;
+  font-size: 250%;
+  margin-bottom: 5%;
+}
+
+.linkText p {
+  font-size: 140%;
+}

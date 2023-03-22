@@ -1,0 +1,35 @@
+/* 
+ヘッダーのコンポーネント
+*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(160, 158, 176);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 13%;
+  color: white;
+  z-index: 10;
+}
+
+.headerNav ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 320%;
+  margin: 40px;
+  font-weight: bold;
+}
+
+.headerNav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s;
+}
+
+.headerNav ul li a:hover {
+  color: black;
+}

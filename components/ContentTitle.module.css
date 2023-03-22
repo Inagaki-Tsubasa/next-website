@@ -1,0 +1,18 @@
+/* 
+各ページのタイトルコンポーネント
+ */
+.contentsTitle {
+  padding-top: 12%;
+}
+
+.titles h1 {
+  font-size: 600%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.titles p {
+  font-size: 250%;
+  font-weight: 700;
+  text-align: center;
+}

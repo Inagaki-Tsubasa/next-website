@@ -1,0 +1,27 @@
+.questionAnswer {
+  /* margin-top: 10%; */
+  margin: 12% 5% 0 5%;
+}
+
+.question {
+  text-indent: 2%;
+  padding-top: 2%;
+  margin-top: 4%;
+  padding-bottom: 2%;
+  background-color: rgb(249, 243, 236);
+  justify-content: center;
+  font-weight: 400;
+  border: 2px solid black;
+  /* text-align: center; */
+}
+
+.answer {
+  text-indent: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgb(250, 226, 226);
+  justify-content: center;
+  font-weight: 400;
+  border: 2px solid black;
+  /* text-align: center; */
+}
