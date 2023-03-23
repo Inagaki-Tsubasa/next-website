@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 200%;
+  font-size: 130%;
   /* padding-top: 30px; */
   transition: all 0.5s;
 }

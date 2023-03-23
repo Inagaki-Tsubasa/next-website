@@ -30,7 +30,7 @@ export default function Home() {
             </p>
             <iframe
               width="100%"
-              height="300"
+              height="230"
               src="https://www.youtube.com/embed/H0JhliQDc4U"
               title="YouTube video player"
               frameBorder="0"
@@ -51,7 +51,7 @@ export default function Home() {
             </p>
             <iframe
               width="100%"
-              height="300"
+              height="230"
               src="https://www.youtube.com/embed/MAMv_s526vU"
               title="YouTube video player"
               frameBorder="0"
@@ -71,7 +71,7 @@ export default function Home() {
             </p>
             <iframe
               width="100%"
-              height="300"
+              height="230"
               src="https://www.youtube.com/embed/IjXNQnlSVEo"
               title="YouTube video player"
               frameBorder="0"
