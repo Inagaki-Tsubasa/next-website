@@ -33,13 +33,14 @@ const Card = (props: {
 }) => {
   return (
     <div className={styles.cards}>
-      <img src={props.image} alt="" />
-      <div className={styles.cardsBody}>
-        <h2>{props.text}</h2>
-        <p>[学習した内容]</p>
-        <h5>{props.skill}</h5>
-        <a href={props.link}>サイトを見に行く→</a>
-      </div>
+      <a href={props.link}>
+        <img src={props.image} alt="" />
+        <div className={styles.cardsBody}>
+          <h2>{props.text}</h2>
+          <p>[学習した内容]</p>
+          <h5>{props.skill}</h5>
+        </div>
+      </a>
     </div>
   );
 };

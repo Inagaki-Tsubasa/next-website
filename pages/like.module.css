@@ -1,8 +1,8 @@
 .likeTitle {
-  font-size: 500%;
+  font-size: 400%;
   font-weight: 700;
-  margin: 10% 0 0 10%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10% 0 0 6%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .movieYoutube {
@@ -13,14 +13,14 @@
 
 .cardLink {
   background-color: #ffffff;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   overflow: hidden;
   /* margin-right: 5%; */
   /* margin: 10% 8% 4% 8%; */
-  width: 40%;
+  width: 30%;
   height: 35%;
-  margin: 5% 10% 0 0%;
+  margin: 5% 3% 0 0%;
   /* margin-top: 10%; */
 }
 
@@ -30,10 +30,10 @@
 
 .linkText h1 {
   font-weight: 700;
-  font-size: 250%;
+  font-size: 220%;
   margin-bottom: 5%;
 }
 
 .linkText p {
-  font-size: 140%;
+  font-size: 120%;
 }

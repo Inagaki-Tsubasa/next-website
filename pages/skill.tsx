@@ -13,7 +13,6 @@ export default function Home() {
     <>
       <Header />
       <motion.div
-        className="homepage"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.4, delay: 0.1 }}

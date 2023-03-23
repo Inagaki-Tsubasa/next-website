@@ -12,7 +12,6 @@ export default function Home() {
     <>
       <Header />
       <motion.div
-        className="homepage"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.4, delay: 0.1 }}
@@ -25,13 +24,13 @@ export default function Home() {
           <div className={styles.linkText}>
             <h1>へレディタリー/継承</h1>
             <p>
-              話題になった映画「ミッドサマー」の監督であるアリア・スターが手がけたホラー映画。
+              話題になった映画「ミッドサマー」と同じ監督。
               <br />
-              平凡な家族の生活に嫌な雰囲気がまとわりついているストーリーで、とにかく効果音の使い方がゾワゾワしすぎて半泣きになった。
+              平凡な家族の生活に嫌な雰囲気の異変が起きていくストーリー。
             </p>
             <iframe
               width="100%"
-              height="400"
+              height="300"
               src="https://www.youtube.com/embed/H0JhliQDc4U"
               title="YouTube video player"
               frameBorder="0"
@@ -48,12 +47,11 @@ export default function Home() {
             <p>
               インドで大ヒットしたコメディ映画。
               <br />
-              インド名門の大学生三人がとにかくめちゃくちゃに荒らす学生友情ストーリーで、映画を見てる間ずっとワクワクが止まらなかった。
-              誰が見てもヒットした理由に納得できる映画だと思う。
+              インド名門の大学生三人がとにかくめちゃくちゃに荒らす学生友情ストーリー。
             </p>
             <iframe
               width="100%"
-              height="400"
+              height="300"
               src="https://www.youtube.com/embed/MAMv_s526vU"
               title="YouTube video player"
               frameBorder="0"
@@ -67,13 +65,13 @@ export default function Home() {
           <div className={styles.linkText}>
             <h1>アメリカン・アニマルズ</h1>
             <p>
-              監督には失礼だが、全然知名度がない映画。今までこの映画を紹介してきて、知ってる人に出会ったことがない。でも好き。
+              おすすめしても誰も知らない映画。
               <br />
-              大学生の四人が平凡な生活に飽き、老人のコスプレして有名な絵画を盗むというストーリー。もうあらすじから面白い。しかも、内容全てノンフィクション。
+              大学生の四人が老人のコスプレして有名な絵画を盗むノンフィクションな映画。
             </p>
             <iframe
               width="100%"
-              height="400"
+              height="300"
               src="https://www.youtube.com/embed/IjXNQnlSVEo"
               title="YouTube video player"
               frameBorder="0"

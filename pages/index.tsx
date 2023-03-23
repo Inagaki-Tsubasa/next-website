@@ -15,10 +15,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
+    <div className={styles.homePage}>
       <Header />
       <motion.div
-        className="homepage"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.1 }}
@@ -75,39 +74,36 @@ export default function Home() {
           <h1>NEW APP!!</h1>
           <div className={styles.cardContent}>
             <div className={styles.card}>
-              <img src="../Images/newapp.png" alt="" />
-              <div className={styles.cardBody}>
-                <h2>リニューアルWEBサイト</h2>
-                <p>使用した言語</p>
-                <h5>Next.js, Typescript</h5>
-                <a href="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/">
-                  サイトを見に行く→
-                </a>
-              </div>
+              <a href="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/">
+                <img src="../Images/newapp.png" alt="" />
+                <div className={styles.cardBody}>
+                  <h2>リニューアルWEBサイト</h2>
+                  <p>使用した言語</p>
+                  <h5>Next.js, Typescript</h5>
+                </div>
+              </a>
             </div>
 
             <div className={styles.card}>
-              <img src="../Images/kinggnu.png" alt="" />
-              <div className={styles.cardBody}>
-                <h2>KingGnuの紹介ページ</h2>
-                <p>使用した言語</p>
-                <h5>React, Three.js (fiber, drei)</h5>
-                <a href="https://inagaki-tsubasa.github.io/kinggnu-gallery/">
-                  サイトを見に行く→
-                </a>
-              </div>
+              <a href="https://inagaki-tsubasa.github.io/kinggnu-gallery/">
+                <img src="../Images/kinggnu.png" alt="" />
+                <div className={styles.cardBody}>
+                  <h2>KingGnuの紹介ページ</h2>
+                  <p>使用した言語</p>
+                  <h5>React, Three.js (fiber, drei)</h5>
+                </div>
+              </a>
             </div>
 
             <div className={styles.card}>
-              <img src="../Images/majan.png" alt="" />
-              <div className={styles.cardBody}>
-                <h2>大学に掲載されたページ</h2>
-                <p>使用した環境</p>
-                <h5>Typescript, Material UI</h5>
-                <a href="https://inagaki-tsubasa.github.io/university-website/">
-                  サイトを見に行く→
-                </a>
-              </div>
+              <a href="https://inagaki-tsubasa.github.io/university-website/">
+                <img src="../Images/majan.png" alt="" />
+                <div className={styles.cardBody}>
+                  <h2>大学に掲載されたページ</h2>
+                  <p>使用した環境</p>
+                  <h5>Typescript, Material UI</h5>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -128,6 +124,6 @@ export default function Home() {
 
         <Footer />
       </motion.div>
-    </>
+    </div>
   );
 }
