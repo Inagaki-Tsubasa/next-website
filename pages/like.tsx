@@ -82,6 +82,66 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <h1 className={styles.likeTitle}># MUSIC</h1>
+      <div className={styles.movieYoutube}>
+        <div className={styles.cardLink}>
+          <div className={styles.linkText}>
+            <h1>クリープハイプ</h1>
+            <p>
+              ロック系を中心に聴いてます！
+              <br />
+              人生で５回ライブに行ったことがあります！
+            </p>
+            <iframe
+              width="100%"
+              height="230"
+              src="https://www.youtube.com/embed/-hUNqBIkTBQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+        <div className={styles.cardLink}>
+          <div className={styles.linkText}>
+            <h1>奥田民生</h1>
+            <p>
+              父の影響で好きになりました！
+              <br />
+              奥田民生と尾崎豊はよくカラオケで歌います。
+            </p>
+            <iframe
+              width="100%"
+              height="230"
+              src="https://www.youtube.com/embed/O-lqIG6H0gY"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+        <div className={styles.cardLink}>
+          <div className={styles.linkText}>
+            <h1>PUNPEE</h1>
+            <p>
+              HIPHOPの音源が好きです！
+              <br />
+              RAPは小学生の頃にハマりました
+            </p>
+            <iframe
+              width="100%"
+              height="230"
+              src="https://www.youtube.com/embed/ILSwEfRzJa0"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );
