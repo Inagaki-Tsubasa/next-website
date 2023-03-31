@@ -22,6 +22,12 @@ export default function Home() {
       <div className={styles.skills}>
         <div className={styles.skillsContent}>
           <Card
+            image="../Images/gallery.png"
+            text="chatGPTで映画のギャラリーを作った"
+            skill="Next.js, chatGPT"
+            link="https://gpt-gallery.vercel.app/"
+          />
+          <Card
             image="../Images/newapp.png"
             text="Next.jsで自己紹介サイトをリニューアルした！！"
             skill="Next.js, Typescript"
