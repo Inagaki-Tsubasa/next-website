@@ -31,7 +31,7 @@ export default function Home() {
             Q. 今後、どのようなエンジニアになりたいと考えていますか？
           </h1>
           <h1 className={styles.answer}>
-            A. UI/UXデザインを重要視したフルスタックエンジニアを目指したいです。
+            A. クライアントやその先のユーザーに感動という価値を創出したいです。
           </h1>
           <h1 className={styles.question}>
             Q. なんの教材を使って勉強していますか？
