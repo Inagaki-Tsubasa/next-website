@@ -114,11 +114,14 @@ export default function Home() {
             <img src="../Images/three.png" alt="" />
             <img src="../Images/next.png" alt="" />
             <img src="../Images/ts.png" alt="" />
+            <img src="../Images/react.png" alt="" />
           </div>
           <h1>これから勉強したいスキル</h1>
           <div className={styles.studyContainer}>
             <img src="../Images/vue.png" alt="" />
             <img src="../Images/firebase.png" alt="" />
+            <img src="../Images/gpt.png" alt="" />
+            <img src="../Images/svelte.png" alt="" />
           </div>
         </div>
 

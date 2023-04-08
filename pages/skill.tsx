@@ -5,6 +5,7 @@ import ContentTitle from "@/components/ContentTitle";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
+import ts from "../public/Images/ts.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,11 +35,18 @@ export default function Home() {
             link="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/"
           />
           <Card
+            image="../Images/line.png"
+            text="練習としてLINEのクローンを作った（リンク無）"
+            skill="firebase, React"
+            link="#"
+          />
+          <Card
             image="../Images/portfolio.png"
             text="自分のことを紹介するオリジナルサイトを作ってみた！"
             skill="React, FramerMotion"
             link="https://inagaki-tsubasa.github.io/website/"
           />
+
           <Card
             image="../Images/kinggnu.png"
             text="好きなバンドを紹介するギャラリーを作ってみた"
