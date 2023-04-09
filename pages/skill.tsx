@@ -29,7 +29,7 @@ export default function Home() {
             link="https://gpt-gallery.vercel.app/"
           />
           <Card
-            image="../Images/newapp.png"
+            image="../Images/renew.png"
             text="Next.jsで自己紹介サイトをリニューアルした！！"
             skill="Next.js, Typescript"
             link="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/"
