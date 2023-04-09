@@ -32,7 +32,7 @@ export default function Home() {
             image="../Images/renew.png"
             text="Next.jsで自己紹介サイトをリニューアルした！！"
             skill="Next.js, Typescript"
-            link="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/"
+            link="https://next-website-taupe.vercel.app/"
           />
           <Card
             image="../Images/line.png"
