@@ -5,13 +5,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(160, 158, 176);
+  background-color: rgb(246, 246, 236);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   width: 100vw;
-  height: 13%;
+  height: 11%;
   color: white;
   z-index: 10;
 }
@@ -26,10 +26,10 @@
 
 .headerNav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(46, 41, 41);
   transition: all 0.4s;
 }
 
 .headerNav ul li a:hover {
-  color: black;
+  color: rgb(192, 192, 189);
 }

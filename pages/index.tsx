@@ -25,10 +25,10 @@ export default function Home() {
         <div className={styles.hero}>
           <div className={styles.heroText}>
             <h1>PORTFOLIO</h1>
-            <p>INAGAKI.</p>
+            {/* <p>INAGAKI.</p> */}
           </div>
           <div className={styles.heroImage}>
-            <img src="../Images/haikei.jpg" alt="" />
+            <img src="../Images/iro.jpg" alt="" />
           </div>
         </div>
 
