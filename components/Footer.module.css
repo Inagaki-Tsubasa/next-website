@@ -2,7 +2,7 @@
 フッターコンポーネント
 */
 .footer {
-  background-color: rgb(154, 144, 155);
+  background-color: rgb(246, 246, 236);
   margin-top: 10%;
   padding: 2% 0;
   width: 100%;
@@ -10,7 +10,7 @@
 }
 
 .footer a {
-  color: white;
+  color: rgb(46, 41, 41);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,5 +20,5 @@
 }
 
 .footer a:hover {
-  color: black;
+  color: rgb(192, 192, 189);
 }

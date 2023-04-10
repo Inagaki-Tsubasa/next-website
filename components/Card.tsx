@@ -30,6 +30,7 @@ const Card = (props: {
     | null
     | undefined;
   link: string | undefined;
+  src?: string | null;
 }) => {
   return (
     <div className={styles.cards}>

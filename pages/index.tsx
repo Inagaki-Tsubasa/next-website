@@ -74,8 +74,8 @@ export default function Home() {
           <h1>NEW APP!!</h1>
           <div className={styles.cardContent}>
             <div className={styles.card}>
-              <a href="https://next-website-3gdzb1brg-inagaki-tsubasa.vercel.app/">
-                <img src="../Images/newapp.png" alt="" />
+              <a href="https://next-website-taupe.vercel.app/">
+                <img src="../Images/renew.png" alt="" />
                 <div className={styles.cardBody}>
                   <h2>リニューアルWEBサイト</h2>
                   <p>使用した言語</p>
@@ -112,14 +112,15 @@ export default function Home() {
           <h1>現在勉強しているスキル</h1>
           <div className={styles.studyContainer}>
             <img src="../Images/three.png" alt="" />
-            <img src="../Images/next.png" alt="" />
+            <img src="../Images/nextjs.png" alt="" />
             <img src="../Images/ts.png" alt="" />
             <img src="../Images/react.png" alt="" />
+            <img src="../Images/firebase.png" alt="" />
           </div>
           <h1>これから勉強したいスキル</h1>
           <div className={styles.studyContainer}>
             <img src="../Images/vue.png" alt="" />
-            <img src="../Images/firebase.png" alt="" />
+
             <img src="../Images/gpt.png" alt="" />
             <img src="../Images/svelte.png" alt="" />
           </div>
