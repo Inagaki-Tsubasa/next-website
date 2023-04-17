@@ -23,10 +23,10 @@ export default function Home() {
       <div className={styles.skills}>
         <div className={styles.skillsContent}>
           <Card
-            image="../Images/gallery.png"
-            text="chatGPTで映画のギャラリーを作った"
-            skill="Next.js, chatGPT"
-            link="https://gpt-gallery.vercel.app/"
+            image="../Images/threeText.png"
+            text="R3Fの3D表現でテキストを作成した"
+            skill="Next.js, R3F"
+            link="https://three-3-d.vercel.app/"
           />
           <Card
             image="../Images/renew.png"
@@ -45,6 +45,12 @@ export default function Home() {
             text="自分のことを紹介するオリジナルサイトを作ってみた！"
             skill="React, FramerMotion"
             link="https://inagaki-tsubasa.github.io/website/"
+          />
+          <Card
+            image="../Images/gallery.png"
+            text="chatGPTで映画のギャラリーを作った"
+            skill="Next.js, chatGPT"
+            link="https://gpt-gallery.vercel.app/"
           />
 
           <Card
