@@ -28,17 +28,24 @@ export default function Home() {
             skill="Next.js, R3F"
             link="https://three-3-d.vercel.app/"
           />
+
           <Card
-            image="../Images/renew.png"
-            text="Next.jsで自己紹介サイトをリニューアルした！！"
+            image="../Images/i-studio-logo.png"
+            text="御社のホームページを制作してみた"
             skill="Next.js, Typescript"
-            link="https://next-website-taupe.vercel.app/"
+            link="https://i-studio.vercel.app/"
           />
           <Card
             image="../Images/line.png"
             text="練習としてLINEのクローンを作った（リンク無）"
             skill="firebase, React"
             link="#"
+          />
+          <Card
+            image="../Images/renew.png"
+            text="Next.jsで自己紹介サイトをリニューアルした！！"
+            skill="Next.js, Typescript"
+            link="https://next-website-taupe.vercel.app/"
           />
           <Card
             image="../Images/portfolio.png"
