@@ -31,7 +31,7 @@ export default function Home() {
 
           <Card
             image="../Images/i-studio-logo.png"
-            text="御社のホームページを制作してみた"
+            text="企業のWEBページを制作してみた"
             skill="Next.js, Typescript"
             link="https://i-studio.vercel.app/"
           />
